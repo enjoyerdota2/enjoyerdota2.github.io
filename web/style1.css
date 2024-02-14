@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+    cursor: url('./img/cursor-ussual.png'), pointer;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 102, 255);
+    
+}
+
+
+.gif{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    transition: 0.09s;
+}
+
+
+.txt{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 700px;
+    border-radius: 20px;
+    font-size: 100px;
+}
